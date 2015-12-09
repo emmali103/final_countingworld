@@ -1,0 +1,101 @@
+body{    
+
+	background-image: url(../images/background-01-01-01.jpg) ;
+
+	background-size: cover;
+
+	 background-repeat: no-repeat;
+
+
+
+
+	
+
+}
+
+
+
+@media screen and (min-width: 1136px) { 
+   
+  }
+
+
+  .container img{    width: 20%;}
+
+
+  .col-xs-4{margin-top: 5%;}
+
+
+ #selectable{    text-align: center;
+             margin-top: 15%;}
+
+
+  h1.appletree, h1.bananatree{font-family: 'Open Sans', sans-serif;
+     font-size:5em;
+     font-weight: 800;
+     color:#FFCE2C;}
+
+
+  .number_left{    
+  	margin-top: -30%;
+    margin-left: 20%;
+    text-align: center;}
+
+
+  .number_right{    
+  	margin-top: -35%;
+    text-align: center;
+    margin-left: -10%;}
+
+
+  .confirm{text-align: center;
+      margin-top: -10%;}
+
+   input{ background: transparent;
+  border: none;
+
+
+}
+
+input#numberLeft{
+    width: 30%;
+}
+
+input#numberRight{
+    width: 30%;
+}
+
+
+
+/*.btn-plus:hover{
+
+    background: #fcc63c;
+
+
+
+}*/
+
+.col-sm-6.btn-plus, .col-sm-6.btn-minus{    width: 40%;}
+
+
+.col-sm-6.btn-plus{
+    margin-left: 25%;
+}
+
+.col-sm-6.btn-minus{
+  margin-left: -30%;
+}
+
+
+
+
+.active_img{border: solid 2px #FFCE2C;}
+
+
+
+
+
+
+
+
+

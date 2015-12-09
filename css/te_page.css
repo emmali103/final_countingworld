@@ -1,0 +1,256 @@
+
+/*********start**header*************/	
+#header
+				{
+					position:relative;
+					width:100%;
+					height:50px;
+					margin-top:0px;
+					border:0px solid red;
+					padding-top:50px;
+
+				}
+/********************************end**header******************************************/	
+/********************************start**slogan******************************************/	
+#slogan
+				{
+					width:320px;
+					height:50px;
+					position:relative;
+					float:right;
+					border:0px solid white;
+				}
+
+#home
+		{
+			position:relative;
+			float:right;
+			display:block;
+			text-decoration:none;
+			height:50px;
+			/*margin-right:10px;*/
+			width:50px;
+			background-image:url(../images/home02.PNG);
+			background-size: 40px 40px;
+			background-repeat: no-repeat;
+		}
+#home:hover
+		{
+			background-image:url(../images/home01.PNG);
+		}
+#user
+		{
+			position:relative;
+			float:right;
+			display:block;
+			text-decoration:none;
+			height:50px;
+			margin-right:10px;
+			width:50px;
+			background-image:url(../images/user02.PNG);
+			background-size: 40px 40px;
+			background-repeat: no-repeat;
+		}
+#user:hover
+		{
+			background-image:url(../images/user01.PNG);
+		}
+		
+
+
+
+
+/******************************/
+
+
+
+
+
+.back-img{
+	width: 1135px;
+	height: 640px;
+	background-image: url("../images/teacher_background.jpg");
+}
+.container{
+	padding: 0px;
+	width: 1135px;
+}
+
+.col-xs-4.banana{    float: right;
+    margin-top: 5%;
+    height: 60px;}
+
+.row1{
+
+	/*margin-top: -650px;*/
+	position: relative;
+	top:-650px;
+}
+.row2{
+	position: relative;
+	top:-450px;
+	left: 0px
+}
+.row3{
+	position: relative;
+	top:-450px;
+}
+
+.row4{position: relative;
+	top:-500px;
+height:1px;}
+
+
+.apple{	
+	margin-left: 5%;
+	margin-top: 5%;
+	height: 60px
+}
+
+.banana{
+	float: right;
+	margin-top: 5%;
+	height: 60px
+}
+
+#result input{
+	width: 100px;
+}
+
+.busket{	
+	float: left;margin-left; 
+	margin-top:360px;
+	margin-bottom:10%;
+}
+.arrow{
+	margin-top:160px;
+}
+.confirm{
+	margin-top:270px;
+	float: center;
+	
+	    text-align: center;
+	    height:1px;
+	
+}
+
+.col-sm-6.btn-plus{    text-align: right;}
+
+   input{ background: transparent;
+  border: none;
+
+
+}
+
+input#numberLeft, input#numberRight{width:50%;}
+
+
+
+.number_left{    margin-left: -50px;}
+
+  h1.appletree, h1.bananatree{font-family: 'Open Sans', sans-serif;
+     font-size:4em;
+     font-weight: 800;
+     color:#FFCE2C;}
+
+p{
+	font-family: 'Open Sans', sans-serif;
+	font-weight:800;
+	color:#FFCE2C;
+	width:60%;
+	font-size: 5em;
+	float: center;
+	margin-left: 350px;
+	margin-top:40%;
+}
+
+#result_teacher{text-align: center;
+	margin-top:-900px;
+    z-index: 1;
+    position:relative}
+
+.btn01, .btn02{width:300px;
+ text-align: center;
+ margin-left:450px;
+}
+
+.btn01{margin-top:-200px;}
+
+
+@media screen and (max-width: 1000px) { 
+      .container{
+      	width: 640px;
+      }
+      .back-img{
+		width: 640px;
+		height: 361px;
+		background-image: url("../images/teacher_background2.jpg");	
+		}
+	.row1{
+		position: relative;
+		top:-350px;
+	}
+	.row2{
+		position: relative;
+		top:-250px;
+	
+	}
+
+	.col-sm-6.btn-plus, .col-sm-6.btn-minus{width:300px;}
+
+    .col-sm-6.btn-minus{text-align: right;
+
+                        margin-top:-55px;
+                        margin-left:100px;}
+
+
+       h1.appletree, h1.bananatree{font-family: 'Open Sans', sans-serif;
+     font-size:3em;
+     font-weight: 800;
+     color:#FFCE2C;}
+
+    .number_left{margin-left:-30px;}
+
+	.row3{
+		position: relative;
+		top:-290px;
+	}
+
+
+		.row4{
+		position: relative;
+		top:-450px;
+	}
+	p{
+		font-size:3em;	
+	}
+	#result input{
+		width: 50px;
+	}
+	.confirm{
+	margin-top:230px;
+	float: center;
+	margin-left: 30px
+	
+}
+
+#result_teacher{text-align: center;
+	margin-top:-720px;
+    z-index: 1;
+    position:relative}
+
+.btn01, .btn02{width:200px;
+ text-align: center;
+ margin-left:220px;
+}
+
+.btn01{margin-top:-150px;}
+
+  }
+
+
+
+
+/* @media screen and (min-width: 1136px) { 
+   
+  }*/

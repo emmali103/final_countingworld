@@ -1,0 +1,275 @@
+
+/*********start**header*************/	
+#header
+				{
+					position:relative;
+					width:100%;
+					height:50px;
+					margin-top:0px;
+					border:0px solid red;
+					padding-top:50px;
+
+				}
+/********************************end**header******************************************/	
+/********************************start**slogan******************************************/	
+#slogan
+				{
+					width:320px;
+					height:50px;
+					position:relative;
+					float:right;
+					border:0px solid white;
+				}
+
+#home
+		{
+			position:relative;
+			float:right;
+			display:block;
+			text-decoration:none;
+			height:50px;
+			/*margin-right:10px;*/
+			width:50px;
+			background-image:url(../images/home02.PNG);
+			background-size: 40px 40px;
+			background-repeat: no-repeat;
+		}
+#home:hover
+		{
+			background-image:url(../images/home01.PNG);
+		}
+#user
+		{
+			position:relative;
+			float:right;
+			display:block;
+			text-decoration:none;
+			height:50px;
+			margin-right:10px;
+			width:50px;
+			background-image:url(../images/user02.PNG);
+			background-size: 40px 40px;
+			background-repeat: no-repeat;
+		}
+#user:hover
+		{
+			background-image:url(../images/user01.PNG);
+		}
+		
+
+#logout
+		{
+			position:relative;
+			float:right;
+			display:block;
+			text-decoration:none;
+			height:50px;
+			margin-right:10px;
+			width:50px;
+			background-image:url(../images/logout01.PNG);
+			background-size: 40px 40px;
+			background-repeat: no-repeat;
+		}
+#logout:hover
+		{
+			background-image:url(../images/logout02.PNG);
+		}
+		
+
+
+/******************************/
+
+.back-img{
+	width: 1135px;
+	height: 640px;
+	background-image: url("../images/student_page_background.png");
+}
+.container{
+	padding: 0px;
+	width: 1135px;
+}
+
+.row1{
+
+	/*margin-top: -650px;*/
+	position: relative;
+	top:-650px;
+}
+.row2{
+	position: relative;
+	top:-750px;
+	left: 50px
+}
+.row3{
+	position: relative;
+	top:-1100px;
+}
+
+.apple{	
+	margin-left: 5%;
+	margin-top: 5%;
+	height: 60px
+}
+
+.banana{
+	float: right;
+	margin-top: 5%;
+	height: 60px
+}
+
+#result input{
+	width: 100px;
+}
+
+.busket{	
+	float: left;margin-left; 
+	margin-top:360px;
+	margin-bottom:10%;
+}
+ 
+#confirm_st{width:40%;
+	margin-left: 500px;
+	margin-top: -50px
+	
+}
+#leftarrow{
+float: left;
+	margin-top: -100px 
+}
+
+#rightarrow{
+	margin-top: -100px;
+	float:right;
+}
+#drop2{margin-right: -150px}
+
+p{
+	font-family: 'Open Sans', sans-serif;
+	font-weight:800;
+	color:#FFCE2C;
+	width:60%;
+	font-size: 5em;
+	float: center;
+	margin-left: 350px;
+	margin-top:40%;
+}
+
+/*    result page            */
+
+#result_student_right{
+	text-align: center;
+	 float:left;
+	  margin-top:-1800px;
+    z-index: 1;
+    position:relative;}
+
+.btn03{width:300px;
+ text-align: center;
+ margin-left:450px;
+}
+
+.btn03{margin-top:-200px;}
+
+#result_student_wrong{
+	text-align: center;
+	 float:left;
+	  margin-top:-1800px;
+    z-index: 1;
+    position:relative;}
+
+.btn01, .btn02{width:300px;
+ text-align: center;
+ margin-left:450px;
+}
+
+.btn01{margin-top:-250px;}
+
+
+
+
+
+@media screen and (max-width: 1000px) { 
+      .container{
+      	width: 640px;
+      }
+      .back-img{
+		width: 640px;
+		height: 361px;
+		background-image: url("../images/student_page_background2.png");	
+		}
+	.row1{
+		position: relative;
+		top:-350px;
+	}
+	.row2{
+		position: relative;
+		top:-450px;
+		left:-100px
+	}
+	.row3{
+		position: relative;
+		top:-790px;
+	}
+	p{
+		font-size:3em;	
+	}
+	#result input{
+		width: 50px;
+	}
+	#confirm_st{width:40%;
+		margin-left: 250px;
+		margin-top: -50px
+	
+	}
+
+	#leftarrow{
+		float: left;
+		margin-top: -100px 
+	}
+
+	#rightarrow{
+		margin-top: -100px;
+		float:right;
+	}
+	#drop2{margin-right: -150px}
+
+/*    result page            */
+
+#result_student_right{
+	text-align: center;
+	 float:left;
+	  margin-top:-1180px;
+    z-index: 1;
+    position:relative;
+width:98%;}
+
+.btn03{width:300px;
+ text-align: center;
+ margin-left:180px;}
+
+
+
+.btn03{margin-top:-100px;}
+
+
+
+#result_student_wrong{
+	width:98%;
+	text-align: center;
+	 float:left;
+	  margin-top:-1180px;
+    z-index: 1;
+    position:relative;}
+
+.btn01, .btn02{width:150px;
+ text-align: center;
+ margin-left:250px;
+}
+
+.btn01{margin-top:-150px;}
+}
+
+
+/* @media screen and (min-width: 1136px) { 
+   
+  }*/

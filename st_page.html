@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Math</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">	
+	<link href="http://code.jquery.com/ui/1.10.4/themes/ui-lightness/jquery-ui.css" rel="stylesheet">
+	<script src="http://code.jquery.com/jquery-1.10.2.js"></script>
+  <script src="http://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/st_page.css">
+	<script src="http://www.parsecdn.com/js/parse-1.6.7.min.js"></script>
+	<script src="js/st_page.js"> </script>
+	<script src="js/student.js"> </script>
+	<script src="js/confirm.js"> </script>
+
+</head>
+<body onload="student()">
+<div class="container">
+
+<!--    startheader-> -->
+
+	<div id="header">
+   <!--  -start slogan -->
+    	<div id="slogan">
+    		 <a href="＃" id="logout"></a>
+     		   		
+        	<a href="home.html" id="home"></a>
+
+        	
+        </div>
+    <!--ends logan-->
+    </div>
+        
+ <!--    -end header -> -->
+
+ 
+<!-- <img class="background-image" src="images/student_page_background.png"> -->
+<div class="back-img"></div>
+<div class="row1">
+	<div class="col-xs-4 apple">
+	
+		<!-- <img id="drag1" src="images/apple.png" style="width:20%" >	 
+		<img id="drag2" src="images/apple.png" style="width:20%" > 
+		<img id="drag3" src="images/apple.png" style="width:20%" > 
+		<img id="drag4" src="images/apple.png" style="width:20%" >  
+		<img id="drag5" src="images/apple.png" style="width:20%" > 
+		<img id="drag6" src="images/apple.png" style="width:20%" >  
+		<img id="drag7" src="images/apple.png" style="width:20%" > 
+		<img id="drag8" src="images/apple.png" style="width:20%" > 
+		<img id="drag9" src="images/apple.png" style="width:20%" > -->
+		
+	</div>
+
+	<div class="col-xs-4">		
+	</div>
+
+	<div class="col-xs-4 banana">
+		<!-- <img id="drag_1" src="images/banana.png" style="width:25%">
+		<img id="drag_2" src="images/banana.png" style="width:25%">
+		<img id="drag_3" src="images/banana.png" style="width:25%">
+		<img id="drag_4" src="images/banana.png" style="width:25%">
+		<img id="drag_5" src="images/banana.png" style="width:25%">
+		<img id="drag_6" src="images/banana.png" style="width:25%">
+		<img id="drag_7" src="images/banana.png" style="width:25%">
+		<img id="drag_8" src="images/banana.png" style="width:25%">
+		<img id="drag_9" src="images/banana.png" style="width:25%"> -->
+	</div>
+<br>
+</div>
+
+
+
+<div class="row2">	
+	
+	
+	 <p>
+	 <span id="first-num"> 0 </span> <span id="sign">  </span><span id="second-num"> 0 </span><span> = </span><span id="result"><input id="maybe" type="text"></span>
+	 </p>
+
+		
+
+ </div>			
+
+
+<div class="row3">
+
+	<div class="col-xs-4 busket">
+	<a href="home.html"><img id="leftarrow" src="images/leftarrow.png" width="20%"  ></a>
+		<img  id="drop1" src="images/busket.png" width="80%" >	
+
+
+		<img id="confirm_st" onmousemove="changeSrc(this)" onmouseout="ReturnSrc(this)" src="images/redconfirm.png"   onclick="confirm()">		
+	</div>
+	
+	<div class="col-xs-4 ">
+		
+		
+					
+	</div>
+
+	<div class="col-xs-4 busket">
+
+	<a href="st_page1.html"><img id="rightarrow" src="images/rightarrow.png" width="20%"  ></a>
+		<img  id="drop2"src="images/busket.png" width="80%">			
+	</div>
+
+	
+		
+	
+</div>
+
+
+
+<div id="result_student_right" style="display:none;" >
+
+   <img src="images/right.png" style="width:80%;" alt="">
+
+
+   <div class="btn03">
+     <a href="st_page1.html"><input type="image" src="images/answermore.png"  style="width:50%;" class="" alt="" > </a>
+   </div>
+ </div>
+
+<div id="result_student_wrong" style="display:none;" >
+
+   <img src="images/wrong.png" style="width:80%;" alt="">
+
+
+    <div class="btn01">
+     <a href="st_page1.html"><input type="image" src="images/answermore.png"  style="width:50%;" class="" alt="" > </a>
+   </div>
+
+   <div class="btn02">
+     <a href="st_page.html"> <input type="image" src="images/tryagain.png"  style="width:50%;" class="" alt="" > </a>
+   </div>
+ </div>
+
+
+
+</div>
+	
+</body>
+</html>
